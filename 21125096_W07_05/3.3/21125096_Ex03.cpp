@@ -3,20 +3,20 @@
 // 21CTT1
 
 // Test case 1
-// Input: toBinary(123)
-// Output: 1111011
+// Input: toHex(123)
+// Output: 7B
 
 // Test case 2
 // Input: 1231412412
-// Output: 1001001011001011101110010111100
+// Output: 4965DCBC
 
 // Test case 3
 // Input: 65433563
-// Output: 11111001100110111111011011
+// Output: 3E66FDB
 
 #include "function.cpp"
 
 int main(){
-    cout << toBinary(65433563);
+    cout << toHex(65433563);
     return 0;
 }
